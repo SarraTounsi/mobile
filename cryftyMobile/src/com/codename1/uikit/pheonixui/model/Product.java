@@ -6,7 +6,7 @@ public class Product {
     String price;
     String quant;
     String designation;
-    String cat;
+    String prod
     String img;
     int quantToBuy;
 
@@ -61,12 +61,12 @@ public class Product {
         this.designation = designation;
     }
 
-    public String getCat() {
-        return cat;
+    public String getprod() {
+        return prod;
     }
 
-    public void setCat(String cat) {
-        this.cat = cat;
+    public void setprod(String prod) {
+        this.cat = prod;
     }
 
     public String getImg() {
